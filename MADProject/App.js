@@ -10,6 +10,7 @@ import Constants from 'expo-constants';
 import Summary from './components/Summary';
 import BMR_calculator from './components/BMR_calculator';
 import Diet_Goals from './components/Food';
+import Chart from './components/chart';
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-paper';
 
@@ -22,6 +23,7 @@ const Cat = () => {
         <Text style={styles.calstyle}>Today Calorie Allowance</Text>
         <Text style={styles.kcalstyle}>2500 kcal</Text>
       </View>
+
     </Card>
   );
 };

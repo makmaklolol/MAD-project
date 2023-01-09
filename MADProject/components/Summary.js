@@ -28,7 +28,7 @@ export default function Summary() {
           <Text style={styles.buttonTextStyle}>BMR</Text>
           <Image
           style={styles.buttonImageIconStyle}
-           source={require('../assets/chart.png')}
+           source={require('../assets/cal.png')}
           />
         </TouchableOpacity>
       </View>

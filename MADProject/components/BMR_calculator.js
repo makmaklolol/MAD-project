@@ -19,7 +19,7 @@ export default function BMR_calculator() {
           <Text style={styles.buttonGoalTextStyle}>Goal</Text>
           <Image
           style={styles.buttonGoalImageIconStyle}
-           source={require('../assets/chart.png')}
+           source={require('../assets/target.png')}
           />
         </TouchableOpacity>
         <TouchableOpacity
